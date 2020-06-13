@@ -1,29 +1,30 @@
 const Menu = [
   {
-    label: "Home",
+    label: "Orders",
     pathname: "/"
   },
   {
-    label: "Dashboard",
+    label: "Users",
     pathname: "/dashboard"
   },
   {
-    label: "Signup",
+    label: "Rulesets",
     pathname: "/signup"
   },
   {
-    label: "Wizard",
+    label: "Settings",
     pathname: "/wizard"
-  },
-  {
-    label: "Cards",
-    pathname: "/cards"
-  },
-  {
-    label: "Github",
-    pathname: "https://github.com/alexanmtz/material-sense",
-    external: true
   }
+  // ,
+  // {
+  //   label: "Cards",
+  //   pathname: "/cards"
+  // },
+  // {
+  //   label: "Github",
+  //   pathname: "https://github.com/alexanmtz/material-sense",
+  //   external: true
+  // }
 
 ];
 

@@ -85,15 +85,15 @@ class Topbar extends Component {
   };
 
   handleChange = (event, value) => {
-    this.setState({ value });
+    // this.setState({ value });
   };
 
   mobileMenuOpen = event => {
-    this.setState({ menuDrawer: true });
+    // this.setState({ menuDrawer: true });
   };
 
   mobileMenuClose = event => {
-    this.setState({ menuDrawer: false });
+    // this.setState({ menuDrawer: false });
   };
 
   componentDidMount() {
@@ -126,19 +126,19 @@ class Topbar extends Component {
         <Toolbar>
           <Grid container spacing={10} alignItems="baseline">
             <Grid item xs={12} className={classes.flex}>
-              <div className={classes.inline}>
+              {/* <div className={classes.inline}>
                 <Typography variant="h6" color="inherit" noWrap>
                   <Link to="/" className={classes.link}>
                     <img width={20} src={logo} alt="" />
                     <span className={classes.tagline}>Material Sense</span>
                   </Link>
                 </Typography>
-              </div>
+              </div> */}
               {!this.props.noTabs && (
                 <React.Fragment>
-                  <div className={classes.productLogo}>
+                  {/* <div className={classes.productLogo}>
                     <Typography>A material UI Template</Typography>
-                  </div>
+                  </div> */}
                   <div className={classes.iconContainer}>
                     <IconButton
                       onClick={this.mobileMenuOpen}
